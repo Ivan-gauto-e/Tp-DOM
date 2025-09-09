@@ -1,0 +1,25 @@
+body {
+  background-color: #dbdad5;
+  max-width: max-content;
+  max-height: max-content;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tabla {
+  width: 100%;
+  background-color: white;
+}
+
+.button-add-trip {
+  margin: 16px 24px 16px 24px;
+}
+
+tr,
+th {
+  padding: 6px 8px;
+}
