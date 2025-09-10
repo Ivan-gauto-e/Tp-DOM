@@ -8,13 +8,16 @@
   </head>
   <body>
     <main>
+      <!--Header-->
       <header>
         <h1 class="main-title">My trips</h1>
         <button class="button-add-trip">+ Create Trip</button>
       </header>
-      <table class="tabla">
-        <thead class="tabla-columnas">
-          <tr class="tabla-columnas-orden">
+
+      <!--La tabla-->
+      <table class="table">
+        <thead class="table-column">
+          <tr class="table-column-order">
             <th>Trip Name</th>
             <th>Client Name</th>
             <th>Travel Dates</th>
@@ -23,7 +26,18 @@
             <th>Actions</th>
           </tr>
         </thead>
+        <tbody id="table-trip-body">
+          <!--Filas de viaje con el JS-->
+        </tbody>
       </table>
+      <div id="modal-trip-name">
+      <h2>New Trip</h2>
+        <label>
+          Trip Name:
+          <input type="text" id="" />
+        <button id="create-trip-button">Crear</button>
+        <button id="cancel-create-trip-button">Cancelar</button>
+      </div>
       <script src="script.js"></script>
     </main>
   </body>
