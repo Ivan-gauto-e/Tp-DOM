@@ -10,12 +10,12 @@ header {
   justify-content: space-between;
 }
 
-.table {
+#table {
   width: 100%;
   background-color: white;
 }
 
-.button-add-trip {
+#button-add-trip {
   margin: 16px 24px 16px 24px;
 }
 
@@ -23,3 +23,16 @@ tr,
 th {
   padding: 6px 8px;
 }
+
+#modal-trip-name {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 80px;
+}
+
+/* #modal-trip-name {
+  display: none;
+} */
