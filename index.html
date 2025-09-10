@@ -10,14 +10,14 @@
     <main>
       <!--Header-->
       <header>
-        <h1 class="main-title">My trips</h1>
-        <button class="button-add-trip">+ Create Trip</button>
+        <h1 id="main-title">My trips</h1>
+        <button id="button-add-trip">+ Create Trip</button>
       </header>
 
       <!--La tabla-->
-      <table class="table">
-        <thead class="table-column">
-          <tr class="table-column-order">
+      <table id="table">
+        <thead id="table-column">
+          <tr id="table-column-order">
             <th>Trip Name</th>
             <th>Client Name</th>
             <th>Travel Dates</th>
@@ -30,11 +30,12 @@
           <!--Filas de viaje con el JS-->
         </tbody>
       </table>
+      <!--Modal para crear un viaje solo con su nombre-->
       <div id="modal-trip-name">
       <h2>New Trip</h2>
         <label>
           Trip Name:
-          <input type="text" id="" />
+          <input type="text" id="name-trip-input" />
         <button id="create-trip-button">Crear</button>
         <button id="cancel-create-trip-button">Cancelar</button>
       </div>
